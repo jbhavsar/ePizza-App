@@ -1,0 +1,704 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5754B7241C213C1700B20071 /* home-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 5754B7231C213C1700B20071 /* home-logo.png */; };
+		5754B7281C21BB5B00B20071 /* CodeUs_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 5754B7271C21BB5B00B20071 /* CodeUs_logo.png */; };
+		57E040841C496D490082DED6 /* my_dp.png in Resources */ = {isa = PBXBuildFile; fileRef = 57E040831C496D490082DED6 /* my_dp.png */; };
+		57E040861C497C790082DED6 /* location.png in Resources */ = {isa = PBXBuildFile; fileRef = 57E040851C497C790082DED6 /* location.png */; };
+		57EC56781C0193D100313A11 /* register-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 57EC56771C0193D100313A11 /* register-icon.png */; };
+		57EC567A1C01947600313A11 /* send-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 57EC56791C01947600313A11 /* send-icon.png */; };
+		57EC567D1C019C7200313A11 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57EC567C1C019C7200313A11 /* LoginViewController.m */; };
+		57EC56DF1C028AD200313A11 /* Pizza_Pizza_Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 57EC56DE1C028AD200313A11 /* Pizza_Pizza_Logo.png */; };
+		57EC56E11C028E2600313A11 /* Pizza_Hut-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 57EC56E01C028E2600313A11 /* Pizza_Hut-logo.png */; };
+		57EC56E31C028F4500313A11 /* Dominos_pizza-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 57EC56E21C028F4500313A11 /* Dominos_pizza-logo.png */; };
+		57EC56E51C02995600313A11 /* Pizza-icon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 57EC56E41C02995600313A11 /* Pizza-icon.jpg */; };
+		57EC56E81C02A58800313A11 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57EC56E71C02A58800313A11 /* HomeViewController.m */; };
+		57EC56EA1C02A63100313A11 /* Settings-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 57EC56E91C02A63100313A11 /* Settings-icon.png */; };
+		57EC56EC1C02A91500313A11 /* Settings-icon2.ico in Resources */ = {isa = PBXBuildFile; fileRef = 57EC56EB1C02A91500313A11 /* Settings-icon2.ico */; };
+		57EC56EE1C02C16800313A11 /* Pizza_Nova-logo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 57EC56ED1C02C16800313A11 /* Pizza_Nova-logo.jpg */; };
+		57EC56F11C02C7A300313A11 /* back_arrow_white.png in Resources */ = {isa = PBXBuildFile; fileRef = 57EC56EF1C02C7A300313A11 /* back_arrow_white.png */; };
+		57EC56F21C02C7A300313A11 /* Back Arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 57EC56F01C02C7A300313A11 /* Back Arrow.png */; };
+		57EC56F51C02CD9600313A11 /* PizzaPizzaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57EC56F41C02CD9600313A11 /* PizzaPizzaViewController.m */; };
+		57EC57011C02CEE700313A11 /* StoreLocatorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57EC57001C02CEE700313A11 /* StoreLocatorViewController.m */; };
+		AA39420C1C1D5C8A00527C37 /* UsersTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA39420B1C1D5C8A00527C37 /* UsersTableViewController.m */; };
+		AA3942101C1D5D3700527C37 /* UserTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AA39420F1C1D5D3700527C37 /* UserTableViewCell.m */; };
+		AA3942141C1D7C5900527C37 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = AA3942131C1D7C5900527C37 /* User.m */; };
+		AA3942171C1D865800527C37 /* PizzaDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = AA3942161C1D865800527C37 /* PizzaDatabase.m */; };
+		AA39421B1C1DBF5000527C37 /* thumbs.png in Resources */ = {isa = PBXBuildFile; fileRef = AA39421A1C1DBF5000527C37 /* thumbs.png */; };
+		AA3942211C1DEA2000527C37 /* about.png in Resources */ = {isa = PBXBuildFile; fileRef = AA39421D1C1DEA2000527C37 /* about.png */; };
+		AA3942221C1DEA2000527C37 /* like.png in Resources */ = {isa = PBXBuildFile; fileRef = AA39421E1C1DEA2000527C37 /* like.png */; };
+		AA3942231C1DEA2000527C37 /* phone.png in Resources */ = {isa = PBXBuildFile; fileRef = AA39421F1C1DEA2000527C37 /* phone.png */; };
+		AA3942241C1DEA2000527C37 /* setting.png in Resources */ = {isa = PBXBuildFile; fileRef = AA3942201C1DEA2000527C37 /* setting.png */; };
+		AA3942271C1DEAC200527C37 /* SidebarTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA3942261C1DEAC200527C37 /* SidebarTableViewController.m */; };
+		AA39422B1C1DECD500527C37 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA39422A1C1DECD500527C37 /* SWRevealViewController.m */; };
+		AA39422F1C1DFC1C00527C37 /* AboutUsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA39422E1C1DFC1C00527C37 /* AboutUsViewController.m */; };
+		AA3942321C1DFC4300527C37 /* CallUsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA3942311C1DFC4300527C37 /* CallUsViewController.m */; };
+		AA483A8B1C1CC3A800D045E6 /* epizza.sqlite3 in Resources */ = {isa = PBXBuildFile; fileRef = AA483A8A1C1CC3A800D045E6 /* epizza.sqlite3 */; };
+		AAC67F1F1C1F34410081BC0D /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAC67F1E1C1F34410081BC0D /* MapKit.framework */; };
+		AAC67F211C1F442C0081BC0D /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAC67F201C1F442C0081BC0D /* FacebookSDK.framework */; };
+		AE4928F71BFFC44000301BF5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AE4928F61BFFC44000301BF5 /* main.m */; };
+		AE4928FA1BFFC44000301BF5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AE4928F91BFFC44000301BF5 /* AppDelegate.m */; };
+		AE4929001BFFC44000301BF5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE4928FE1BFFC44000301BF5 /* Main.storyboard */; };
+		AE4929021BFFC44000301BF5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE4929011BFFC44000301BF5 /* Images.xcassets */; };
+		AE4929051BFFC44000301BF5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE4929031BFFC44000301BF5 /* LaunchScreen.xib */; };
+		AE4929111BFFC44000301BF5 /* ePizzaAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AE4929101BFFC44000301BF5 /* ePizzaAppTests.m */; };
+		AEDA048C1C10DBF00010C408 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEDA048A1C10DBF00010C408 /* AudioToolbox.framework */; };
+		AEDA048D1C10DBF00010C408 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEDA048B1C10DBF00010C408 /* CFNetwork.framework */; };
+		AEDA04941C10DC600010C408 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEDA048E1C10DC600010C408 /* CoreGraphics.framework */; };
+		AEDA04951C10DC600010C408 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEDA048F1C10DC600010C408 /* CoreLocation.framework */; };
+		AEDA04961C10DC600010C408 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEDA04901C10DC600010C408 /* QuartzCore.framework */; };
+		AEDA04971C10DC600010C408 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEDA04911C10DC600010C408 /* Security.framework */; };
+		AEDA04981C10DC600010C408 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEDA04921C10DC600010C408 /* StoreKit.framework */; };
+		AEDA04991C10DC600010C408 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEDA04931C10DC600010C408 /* SystemConfiguration.framework */; };
+		AEDA049B1C10DC6F0010C408 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = AEDA049A1C10DC6F0010C408 /* libz.dylib */; };
+		AEDA049D1C10DC810010C408 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = AEDA049C1C10DC810010C408 /* libsqlite3.dylib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AE49290B1BFFC44000301BF5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AE4928E91BFFC44000301BF5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AE4928F01BFFC44000301BF5;
+			remoteInfo = ePizzaApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5754B7231C213C1700B20071 /* home-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "home-logo.png"; sourceTree = "<group>"; };
+		5754B7271C21BB5B00B20071 /* CodeUs_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CodeUs_logo.png; sourceTree = "<group>"; };
+		57E040831C496D490082DED6 /* my_dp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = my_dp.png; sourceTree = "<group>"; };
+		57E040851C497C790082DED6 /* location.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = location.png; sourceTree = "<group>"; };
+		57EC56771C0193D100313A11 /* register-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "register-icon.png"; sourceTree = "<group>"; };
+		57EC56791C01947600313A11 /* send-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "send-icon.png"; sourceTree = "<group>"; };
+		57EC567B1C019C7200313A11 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		57EC567C1C019C7200313A11 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		57EC56DE1C028AD200313A11 /* Pizza_Pizza_Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Pizza_Pizza_Logo.png; sourceTree = "<group>"; };
+		57EC56E01C028E2600313A11 /* Pizza_Hut-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pizza_Hut-logo.png"; sourceTree = "<group>"; };
+		57EC56E21C028F4500313A11 /* Dominos_pizza-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Dominos_pizza-logo.png"; sourceTree = "<group>"; };
+		57EC56E41C02995600313A11 /* Pizza-icon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Pizza-icon.jpg"; sourceTree = "<group>"; };
+		57EC56E61C02A58800313A11 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		57EC56E71C02A58800313A11 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		57EC56E91C02A63100313A11 /* Settings-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Settings-icon.png"; sourceTree = "<group>"; };
+		57EC56EB1C02A91500313A11 /* Settings-icon2.ico */ = {isa = PBXFileReference; lastKnownFileType = image.ico; path = "Settings-icon2.ico"; sourceTree = "<group>"; };
+		57EC56ED1C02C16800313A11 /* Pizza_Nova-logo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Pizza_Nova-logo.jpg"; sourceTree = "<group>"; };
+		57EC56EF1C02C7A300313A11 /* back_arrow_white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back_arrow_white.png; sourceTree = "<group>"; };
+		57EC56F01C02C7A300313A11 /* Back Arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Back Arrow.png"; sourceTree = "<group>"; };
+		57EC56F31C02CD9600313A11 /* PizzaPizzaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PizzaPizzaViewController.h; sourceTree = "<group>"; };
+		57EC56F41C02CD9600313A11 /* PizzaPizzaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PizzaPizzaViewController.m; sourceTree = "<group>"; };
+		57EC56FF1C02CEE700313A11 /* StoreLocatorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StoreLocatorViewController.h; sourceTree = "<group>"; };
+		57EC57001C02CEE700313A11 /* StoreLocatorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StoreLocatorViewController.m; sourceTree = "<group>"; };
+		AA39420A1C1D5C8A00527C37 /* UsersTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UsersTableViewController.h; sourceTree = "<group>"; };
+		AA39420B1C1D5C8A00527C37 /* UsersTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UsersTableViewController.m; sourceTree = "<group>"; };
+		AA39420E1C1D5D3700527C37 /* UserTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserTableViewCell.h; sourceTree = "<group>"; };
+		AA39420F1C1D5D3700527C37 /* UserTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserTableViewCell.m; sourceTree = "<group>"; };
+		AA3942121C1D7C5900527C37 /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		AA3942131C1D7C5900527C37 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		AA3942151C1D865800527C37 /* PizzaDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PizzaDatabase.h; sourceTree = "<group>"; };
+		AA3942161C1D865800527C37 /* PizzaDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PizzaDatabase.m; sourceTree = "<group>"; };
+		AA39421A1C1DBF5000527C37 /* thumbs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = thumbs.png; sourceTree = "<group>"; };
+		AA39421D1C1DEA2000527C37 /* about.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = about.png; sourceTree = "<group>"; };
+		AA39421E1C1DEA2000527C37 /* like.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = like.png; sourceTree = "<group>"; };
+		AA39421F1C1DEA2000527C37 /* phone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = phone.png; sourceTree = "<group>"; };
+		AA3942201C1DEA2000527C37 /* setting.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = setting.png; sourceTree = "<group>"; };
+		AA3942251C1DEAC200527C37 /* SidebarTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SidebarTableViewController.h; sourceTree = "<group>"; };
+		AA3942261C1DEAC200527C37 /* SidebarTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SidebarTableViewController.m; sourceTree = "<group>"; };
+		AA3942291C1DECD500527C37 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		AA39422A1C1DECD500527C37 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		AA39422D1C1DFC1C00527C37 /* AboutUsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutUsViewController.h; sourceTree = "<group>"; };
+		AA39422E1C1DFC1C00527C37 /* AboutUsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutUsViewController.m; sourceTree = "<group>"; };
+		AA3942301C1DFC4300527C37 /* CallUsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CallUsViewController.h; sourceTree = "<group>"; };
+		AA3942311C1DFC4300527C37 /* CallUsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CallUsViewController.m; sourceTree = "<group>"; };
+		AA483A8A1C1CC3A800D045E6 /* epizza.sqlite3 */ = {isa = PBXFileReference; lastKnownFileType = file; path = epizza.sqlite3; sourceTree = "<group>"; };
+		AAC67F1E1C1F34410081BC0D /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		AAC67F201C1F442C0081BC0D /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FacebookSDK.framework; sourceTree = "<group>"; };
+		AE4928F11BFFC44000301BF5 /* ePizzaApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ePizzaApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE4928F51BFFC44000301BF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE4928F61BFFC44000301BF5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AE4928F81BFFC44000301BF5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AE4928F91BFFC44000301BF5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AE4928FF1BFFC44000301BF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AE4929011BFFC44000301BF5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		AE4929041BFFC44000301BF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		AE49290A1BFFC44000301BF5 /* ePizzaAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ePizzaAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE49290F1BFFC44000301BF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE4929101BFFC44000301BF5 /* ePizzaAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ePizzaAppTests.m; sourceTree = "<group>"; };
+		AEDA048A1C10DBF00010C408 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		AEDA048B1C10DBF00010C408 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		AEDA048E1C10DC600010C408 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		AEDA048F1C10DC600010C408 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		AEDA04901C10DC600010C408 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		AEDA04911C10DC600010C408 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		AEDA04921C10DC600010C408 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		AEDA04931C10DC600010C408 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		AEDA049A1C10DC6F0010C408 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		AEDA049C1C10DC810010C408 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AE4928EE1BFFC44000301BF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEDA049D1C10DC810010C408 /* libsqlite3.dylib in Frameworks */,
+				AEDA049B1C10DC6F0010C408 /* libz.dylib in Frameworks */,
+				AAC67F1F1C1F34410081BC0D /* MapKit.framework in Frameworks */,
+				AEDA04941C10DC600010C408 /* CoreGraphics.framework in Frameworks */,
+				AEDA04951C10DC600010C408 /* CoreLocation.framework in Frameworks */,
+				AAC67F211C1F442C0081BC0D /* FacebookSDK.framework in Frameworks */,
+				AEDA04961C10DC600010C408 /* QuartzCore.framework in Frameworks */,
+				AEDA04971C10DC600010C408 /* Security.framework in Frameworks */,
+				AEDA04981C10DC600010C408 /* StoreKit.framework in Frameworks */,
+				AEDA04991C10DC600010C408 /* SystemConfiguration.framework in Frameworks */,
+				AEDA048C1C10DBF00010C408 /* AudioToolbox.framework in Frameworks */,
+				AEDA048D1C10DBF00010C408 /* CFNetwork.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE4929071BFFC44000301BF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AA39420D1C1D5D0B00527C37 /* Custom views */ = {
+			isa = PBXGroup;
+			children = (
+				AA39420E1C1D5D3700527C37 /* UserTableViewCell.h */,
+				AA39420F1C1D5D3700527C37 /* UserTableViewCell.m */,
+			);
+			name = "Custom views";
+			sourceTree = "<group>";
+		};
+		AA3942111C1D7C3A00527C37 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				AA3942121C1D7C5900527C37 /* User.h */,
+				AA3942131C1D7C5900527C37 /* User.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		AA3942281C1DECAC00527C37 /* SWRevealViewController */ = {
+			isa = PBXGroup;
+			children = (
+				AA3942291C1DECD500527C37 /* SWRevealViewController.h */,
+				AA39422A1C1DECD500527C37 /* SWRevealViewController.m */,
+			);
+			name = SWRevealViewController;
+			sourceTree = "<group>";
+		};
+		AA483A871C1CC36100D045E6 /* assets */ = {
+			isa = PBXGroup;
+			children = (
+				AA483A8A1C1CC3A800D045E6 /* epizza.sqlite3 */,
+			);
+			name = assets;
+			sourceTree = "<group>";
+		};
+		AE4928E81BFFC44000301BF5 = {
+			isa = PBXGroup;
+			children = (
+				AEDA047D1C10DB810010C408 /* Frameworks */,
+				AE4928F31BFFC44000301BF5 /* ePizzaApp */,
+				AE49290D1BFFC44000301BF5 /* ePizzaAppTests */,
+				AE4928F21BFFC44000301BF5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AE4928F21BFFC44000301BF5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AE4928F11BFFC44000301BF5 /* ePizzaApp.app */,
+				AE49290A1BFFC44000301BF5 /* ePizzaAppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AE4928F31BFFC44000301BF5 /* ePizzaApp */ = {
+			isa = PBXGroup;
+			children = (
+				AA3942281C1DECAC00527C37 /* SWRevealViewController */,
+				AA3942111C1D7C3A00527C37 /* Models */,
+				AA39420D1C1D5D0B00527C37 /* Custom views */,
+				AA483A871C1CC36100D045E6 /* assets */,
+				AE49291B1BFFCA4200301BF5 /* Images */,
+				AE49291A1BFFCA3800301BF5 /* Nibs */,
+				AE49291C1BFFCA7400301BF5 /* View Controllers */,
+				AE4928F81BFFC44000301BF5 /* AppDelegate.h */,
+				AE4928F91BFFC44000301BF5 /* AppDelegate.m */,
+				AA3942151C1D865800527C37 /* PizzaDatabase.h */,
+				AA3942161C1D865800527C37 /* PizzaDatabase.m */,
+				AE4929011BFFC44000301BF5 /* Images.xcassets */,
+				AE4928F41BFFC44000301BF5 /* Supporting Files */,
+			);
+			path = ePizzaApp;
+			sourceTree = "<group>";
+		};
+		AE4928F41BFFC44000301BF5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AE4928F51BFFC44000301BF5 /* Info.plist */,
+				AE4928F61BFFC44000301BF5 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AE49290D1BFFC44000301BF5 /* ePizzaAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				AE4929101BFFC44000301BF5 /* ePizzaAppTests.m */,
+				AE49290E1BFFC44000301BF5 /* Supporting Files */,
+			);
+			path = ePizzaAppTests;
+			sourceTree = "<group>";
+		};
+		AE49290E1BFFC44000301BF5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AE49290F1BFFC44000301BF5 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AE49291A1BFFCA3800301BF5 /* Nibs */ = {
+			isa = PBXGroup;
+			children = (
+				AE4928FE1BFFC44000301BF5 /* Main.storyboard */,
+				AE4929031BFFC44000301BF5 /* LaunchScreen.xib */,
+			);
+			name = Nibs;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		AE49291B1BFFCA4200301BF5 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				57E040851C497C790082DED6 /* location.png */,
+				57E040831C496D490082DED6 /* my_dp.png */,
+				5754B7271C21BB5B00B20071 /* CodeUs_logo.png */,
+				5754B7231C213C1700B20071 /* home-logo.png */,
+				AA39421D1C1DEA2000527C37 /* about.png */,
+				AA39421E1C1DEA2000527C37 /* like.png */,
+				AA39421F1C1DEA2000527C37 /* phone.png */,
+				AA3942201C1DEA2000527C37 /* setting.png */,
+				AA39421A1C1DBF5000527C37 /* thumbs.png */,
+				57EC56EF1C02C7A300313A11 /* back_arrow_white.png */,
+				57EC56F01C02C7A300313A11 /* Back Arrow.png */,
+				57EC56ED1C02C16800313A11 /* Pizza_Nova-logo.jpg */,
+				57EC56EB1C02A91500313A11 /* Settings-icon2.ico */,
+				57EC56E91C02A63100313A11 /* Settings-icon.png */,
+				57EC56E41C02995600313A11 /* Pizza-icon.jpg */,
+				57EC56E21C028F4500313A11 /* Dominos_pizza-logo.png */,
+				57EC56E01C028E2600313A11 /* Pizza_Hut-logo.png */,
+				57EC56DE1C028AD200313A11 /* Pizza_Pizza_Logo.png */,
+				57EC56791C01947600313A11 /* send-icon.png */,
+				57EC56771C0193D100313A11 /* register-icon.png */,
+			);
+			name = Images;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		AE49291C1BFFCA7400301BF5 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				57EC567B1C019C7200313A11 /* LoginViewController.h */,
+				57EC567C1C019C7200313A11 /* LoginViewController.m */,
+				57EC56E61C02A58800313A11 /* HomeViewController.h */,
+				57EC56E71C02A58800313A11 /* HomeViewController.m */,
+				57EC56F31C02CD9600313A11 /* PizzaPizzaViewController.h */,
+				57EC56F41C02CD9600313A11 /* PizzaPizzaViewController.m */,
+				57EC56FF1C02CEE700313A11 /* StoreLocatorViewController.h */,
+				57EC57001C02CEE700313A11 /* StoreLocatorViewController.m */,
+				AA39420A1C1D5C8A00527C37 /* UsersTableViewController.h */,
+				AA39420B1C1D5C8A00527C37 /* UsersTableViewController.m */,
+				AA3942251C1DEAC200527C37 /* SidebarTableViewController.h */,
+				AA3942261C1DEAC200527C37 /* SidebarTableViewController.m */,
+				AA39422D1C1DFC1C00527C37 /* AboutUsViewController.h */,
+				AA39422E1C1DFC1C00527C37 /* AboutUsViewController.m */,
+				AA3942301C1DFC4300527C37 /* CallUsViewController.h */,
+				AA3942311C1DFC4300527C37 /* CallUsViewController.m */,
+			);
+			name = "View Controllers";
+			path = ..;
+			sourceTree = "<group>";
+		};
+		AEDA047D1C10DB810010C408 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AAC67F201C1F442C0081BC0D /* FacebookSDK.framework */,
+				AAC67F1E1C1F34410081BC0D /* MapKit.framework */,
+				AEDA049C1C10DC810010C408 /* libsqlite3.dylib */,
+				AEDA049A1C10DC6F0010C408 /* libz.dylib */,
+				AEDA048E1C10DC600010C408 /* CoreGraphics.framework */,
+				AEDA048F1C10DC600010C408 /* CoreLocation.framework */,
+				AEDA04901C10DC600010C408 /* QuartzCore.framework */,
+				AEDA04911C10DC600010C408 /* Security.framework */,
+				AEDA04921C10DC600010C408 /* StoreKit.framework */,
+				AEDA04931C10DC600010C408 /* SystemConfiguration.framework */,
+				AEDA048A1C10DBF00010C408 /* AudioToolbox.framework */,
+				AEDA048B1C10DBF00010C408 /* CFNetwork.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AE4928F01BFFC44000301BF5 /* ePizzaApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE4929141BFFC44000301BF5 /* Build configuration list for PBXNativeTarget "ePizzaApp" */;
+			buildPhases = (
+				AE4928ED1BFFC44000301BF5 /* Sources */,
+				AE4928EE1BFFC44000301BF5 /* Frameworks */,
+				AE4928EF1BFFC44000301BF5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ePizzaApp;
+			productName = ePizzaApp;
+			productReference = AE4928F11BFFC44000301BF5 /* ePizzaApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AE4929091BFFC44000301BF5 /* ePizzaAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE4929171BFFC44000301BF5 /* Build configuration list for PBXNativeTarget "ePizzaAppTests" */;
+			buildPhases = (
+				AE4929061BFFC44000301BF5 /* Sources */,
+				AE4929071BFFC44000301BF5 /* Frameworks */,
+				AE4929081BFFC44000301BF5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AE49290C1BFFC44000301BF5 /* PBXTargetDependency */,
+			);
+			name = ePizzaAppTests;
+			productName = ePizzaAppTests;
+			productReference = AE49290A1BFFC44000301BF5 /* ePizzaAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AE4928E91BFFC44000301BF5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = ePizza;
+				TargetAttributes = {
+					AE4928F01BFFC44000301BF5 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					AE4929091BFFC44000301BF5 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = AE4928F01BFFC44000301BF5;
+					};
+				};
+			};
+			buildConfigurationList = AE4928EC1BFFC44000301BF5 /* Build configuration list for PBXProject "ePizzaApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AE4928E81BFFC44000301BF5;
+			productRefGroup = AE4928F21BFFC44000301BF5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AE4928F01BFFC44000301BF5 /* ePizzaApp */,
+				AE4929091BFFC44000301BF5 /* ePizzaAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AE4928EF1BFFC44000301BF5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE4929001BFFC44000301BF5 /* Main.storyboard in Resources */,
+				57EC56E31C028F4500313A11 /* Dominos_pizza-logo.png in Resources */,
+				AA3942231C1DEA2000527C37 /* phone.png in Resources */,
+				57EC56E11C028E2600313A11 /* Pizza_Hut-logo.png in Resources */,
+				AE4929051BFFC44000301BF5 /* LaunchScreen.xib in Resources */,
+				57E040841C496D490082DED6 /* my_dp.png in Resources */,
+				57EC567A1C01947600313A11 /* send-icon.png in Resources */,
+				AE4929021BFFC44000301BF5 /* Images.xcassets in Resources */,
+				57EC56EC1C02A91500313A11 /* Settings-icon2.ico in Resources */,
+				57EC56EA1C02A63100313A11 /* Settings-icon.png in Resources */,
+				AA483A8B1C1CC3A800D045E6 /* epizza.sqlite3 in Resources */,
+				5754B7281C21BB5B00B20071 /* CodeUs_logo.png in Resources */,
+				57EC56F21C02C7A300313A11 /* Back Arrow.png in Resources */,
+				57EC56F11C02C7A300313A11 /* back_arrow_white.png in Resources */,
+				AA3942211C1DEA2000527C37 /* about.png in Resources */,
+				AA3942221C1DEA2000527C37 /* like.png in Resources */,
+				57EC56EE1C02C16800313A11 /* Pizza_Nova-logo.jpg in Resources */,
+				57E040861C497C790082DED6 /* location.png in Resources */,
+				57EC56781C0193D100313A11 /* register-icon.png in Resources */,
+				AA39421B1C1DBF5000527C37 /* thumbs.png in Resources */,
+				AA3942241C1DEA2000527C37 /* setting.png in Resources */,
+				57EC56E51C02995600313A11 /* Pizza-icon.jpg in Resources */,
+				5754B7241C213C1700B20071 /* home-logo.png in Resources */,
+				57EC56DF1C028AD200313A11 /* Pizza_Pizza_Logo.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE4929081BFFC44000301BF5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AE4928ED1BFFC44000301BF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57EC567D1C019C7200313A11 /* LoginViewController.m in Sources */,
+				AA39422F1C1DFC1C00527C37 /* AboutUsViewController.m in Sources */,
+				AE4928FA1BFFC44000301BF5 /* AppDelegate.m in Sources */,
+				AA39422B1C1DECD500527C37 /* SWRevealViewController.m in Sources */,
+				AA3942321C1DFC4300527C37 /* CallUsViewController.m in Sources */,
+				57EC56F51C02CD9600313A11 /* PizzaPizzaViewController.m in Sources */,
+				AA3942101C1D5D3700527C37 /* UserTableViewCell.m in Sources */,
+				57EC56E81C02A58800313A11 /* HomeViewController.m in Sources */,
+				AA3942271C1DEAC200527C37 /* SidebarTableViewController.m in Sources */,
+				57EC57011C02CEE700313A11 /* StoreLocatorViewController.m in Sources */,
+				AA39420C1C1D5C8A00527C37 /* UsersTableViewController.m in Sources */,
+				AA3942141C1D7C5900527C37 /* User.m in Sources */,
+				AA3942171C1D865800527C37 /* PizzaDatabase.m in Sources */,
+				AE4928F71BFFC44000301BF5 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE4929061BFFC44000301BF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE4929111BFFC44000301BF5 /* ePizzaAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AE49290C1BFFC44000301BF5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AE4928F01BFFC44000301BF5 /* ePizzaApp */;
+			targetProxy = AE49290B1BFFC44000301BF5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AE4928FE1BFFC44000301BF5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE4928FF1BFFC44000301BF5 /* Base */,
+			);
+			name = Main.storyboard;
+			path = ePizzaApp;
+			sourceTree = "<group>";
+		};
+		AE4929031BFFC44000301BF5 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE4929041BFFC44000301BF5 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			path = ePizzaApp;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AE4929121BFFC44000301BF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AE4929131BFFC44000301BF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AE4929151BFFC44000301BF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = ePizzaApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AE4929161BFFC44000301BF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = ePizzaApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		AE4929181BFFC44000301BF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ePizzaAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ePizzaApp.app/ePizzaApp";
+			};
+			name = Debug;
+		};
+		AE4929191BFFC44000301BF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ePizzaAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ePizzaApp.app/ePizzaApp";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AE4928EC1BFFC44000301BF5 /* Build configuration list for PBXProject "ePizzaApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE4929121BFFC44000301BF5 /* Debug */,
+				AE4929131BFFC44000301BF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE4929141BFFC44000301BF5 /* Build configuration list for PBXNativeTarget "ePizzaApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE4929151BFFC44000301BF5 /* Debug */,
+				AE4929161BFFC44000301BF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE4929171BFFC44000301BF5 /* Build configuration list for PBXNativeTarget "ePizzaAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE4929181BFFC44000301BF5 /* Debug */,
+				AE4929191BFFC44000301BF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AE4928E91BFFC44000301BF5 /* Project object */;
+}
